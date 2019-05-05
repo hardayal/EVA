@@ -14,7 +14,8 @@
 
 >####
 > Kernel: A kernel is used to extract a particular feature from an object. Eg: vertical lines or horizontal lines or curved lines will all be 3 different kernels. Another example could be to extracting rice grains(from a prepared dish) using a rice grain kernel or extracting peas(from a prepared dish) using a kernel.
-Channel: A channel however is like a bucket storing extracted features of a particular type. eg: all the vertical lines or all the horizontal lines extracted from a particular kernel will create a channel.
+
+> Channel: A channel however is like a bucket storing extracted features of a particular type. example: all the vertical lines or all the horizontal lines extracted from a particular kernel will create a channel.
 
 ***
 ### Why should we only (well mostly) use 3x3 Kernels?
