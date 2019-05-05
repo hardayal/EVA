@@ -1,8 +1,10 @@
 
 ## Assignment 1A
 ***
+
 > <a href="https://colab.research.google.com/github/hardayal/EVA/blob/master/Session_1/EVA_Assignment_1A.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-> GitHub: <a href="https://github.com/hardayal/EVA/blob/master/Session_1/EVA_Assignment_1A.ipynb">EVA_S1.ipynb</a>
+
+> GitHub: <a href="https://github.com/hardayal/EVA/blob/master/Session_1/EVA_Assignment_1A.ipynb">EVA_Assignment_1A.ipynb</a>
 
 ***
 ## Assignment 1B
@@ -21,7 +23,7 @@ Channel: A channel however is like a bucket storing extracted features of a part
 >####
 > We have a choice to choose kernels of different sizes. A 3X3 kernel is largely used because:
 > A) The features that would be extracted will be more local (and less generic) in a smaller kernel than in a larger kernel.
-> B) The amount of information or features extracted will be more, which can be further useful in later layers.3) NVIDIA provides better, faster and more optimized computations for a 3X3 kernel than a kernel of larger size. 
+> B) The amount of information or features extracted will be more, which can be further useful in later layers.3) NVIDIA provides better, faster and more optimized computations for a 3X3 kernel than a kernel of larger size.
 
 ***
 ### How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
