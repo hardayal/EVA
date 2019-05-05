@@ -24,11 +24,11 @@
 >####
 > We have a choice to choose kernels of different sizes. A 3X3 kernel is largely used because:
 
-> A) The features that would be extracted will be more local (and less generic) in a smaller kernel than in a larger kernel.
+> - The features that would be extracted will be more local (and less generic) in a smaller kernel than in a larger kernel.
 
-> B) The amount of information or features extracted will be more, which can be further useful in later layers.
+> - The amount of information or features extracted will be more, which can be further useful in later layers.
 
-> C) NVIDIA provides better, faster and more optimized computations for a 3X3 kernel than a kernel of larger size.
+> - NVIDIA provides better, faster and more optimized computations for a 3X3 kernel than a kernel of larger size.
 
 ***
 ### How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
