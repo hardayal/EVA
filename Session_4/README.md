@@ -52,7 +52,7 @@ High training accuracy and low validation accuracy = overfitting
 >This has to be optimal, as of now we reduce the learning rate gradually
 #### 21. LR schedule and concept behind it
 >We can use this shedule to reduce the LR only when test accuracy is constant or not improvig.
-#### 22. Number of Epochs and when to increase them,
+#### 22. Number of Epochs and when to increase them
 >If the validation accuracy is improving then we can increase numer of Epochs to see where it reached highest accuracy value.
 #### 23. When to add validation checks
 >When we want to see which epoch will give better result.
