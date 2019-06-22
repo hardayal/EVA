@@ -5,7 +5,7 @@
 ***
 ![alt_test](https://github.com/hardayal/EVA/blob/master/Session_7/Network_Calculation.jpeg)
 
-The final RF: 907
+> ##### The final RF: 907
 ***
  
 [Reference](<http://zike.io/posts/calculate-receptive-field-for-vgg-16/>)
