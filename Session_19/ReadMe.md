@@ -17,7 +17,7 @@
 > 1 : Left
 ![My Image](https://github.com/hardayal/EVA/blob/master/Sample_Annotation_Screenshots/sample_4.png)
 
-> 1 : Up
+> 1 : Up  
 ![My Image](https://github.com/hardayal/EVA/blob/master/Sample_Annotation_Screenshots/sample_5.png)
 
 > 1 : DownRight
@@ -32,6 +32,7 @@
 
 > 1 : Top 2 : Top
 ![My Image](https://github.com/hardayal/EVA/blob/master/Sample_Annotation_Screenshots/sample_9.png)
+
 
 
 ### Top 4 Annoations
