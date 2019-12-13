@@ -4,6 +4,7 @@ Tensorflow has a built-in profiler called TensorBoard that allows you to visuali
 # 1.Prequisites
 * First step is to install TensorBoard in your local machine.
 * This tutorial is written in consideration of notebook in Google colab. In colab notebook select "GPU" in "Notebook setting".
+
 ![Notebook setting](https://raw.githubusercontent.com/tensorflow/tensorboard/master/docs/images/profiler-notebook-settings.png)
 # 2. Set up
 
