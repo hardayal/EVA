@@ -10,11 +10,12 @@ With pre-trained Glove Embeddings - 100D Embedding size
 
 Validation accuracy max : 81
 
-![My Image](https://github.com/hardayal/EVA/tree/master/Phase2/tv_ac.png)
+
+![My Image](https://github.com/hardayal/EVA/blob/master/Phase2/tv_ac.png)
 
 
+![My Image](https://github.com/hardayal/EVA/blob/master/Phase2/tv_loss.png)
 
-![My Image](https://github.com/hardayal/EVA/tree/master/Phase2/tv_loss.png)
 
 Final result : 
 
