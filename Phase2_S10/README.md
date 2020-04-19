@@ -3,8 +3,6 @@
 
 # Twin Delayed DDPG (TD3) Implementation
 
-TD3 is an actor-critic model similar as in AC3 but is mainly used for continuous action predictions in robotics scenario. It extends DDPG with multiple improvements. Here we have twin critics which help to reduce the over-estimation of value function, the delayed updates of target and noise regularizations.
-
 ## Implementation steps:
 
 > ### Step 1: Defining Replay memory:
@@ -37,7 +35,6 @@ So the entire architecture looks like:
 
 > ### Step 6: Noise regularization on the predicted next action a'
 
-Before sending a' to critic target networks, we add Gaussian noise to this next action a' and we clamp it in a range of values supported by the environment.
 
 ```python
         noise = torch.Tensor(batch_actions).data.normal_(0, policy_noise).to(device)
@@ -50,8 +47,6 @@ Before sending a' to critic target networks, we add Gaussian noise to this next 
 > ### Step 7: Q Value Estimation by Critic Targets
 
 Predict Q values from both Critic target and take the min value
-
-Both Critic targets take (s', a') as input and return Q values, Qt1(s', a') and Qt2(s', a') as outputs. 
 
 ```python
           target_Q1, target_Q2 = self.critic_target.forward(next_state, next_action)
