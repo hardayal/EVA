@@ -13,9 +13,7 @@
 
 ![alt actor critic](https://i.imgur.com/TI8naMe.png)
 
-We also define a function to update actor loss named as Q1.
-
-So the entire architecture looks like:
+We define a function to update actor loss named as Q1. So the entire architecture looks like:
 
 ![alt full_arch](https://i.imgur.com/40dicZM.png)
 
@@ -122,8 +120,6 @@ Backpropagate using Critic Loss and update the parameters of two Critic models.
 ```
 
 > ### Step 13: Update Actor Target
-
-We soft update our actor target network using Polyak averaging. 
 
 This way our target comes closer to our model. 
 
