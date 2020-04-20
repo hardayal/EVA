@@ -47,7 +47,7 @@ class SwiggyFoodEnv(gym.Env):
         self.window_height = 660
         # for convolutions//state extraction
         self.sand = np.asarray(PILImage.open(os.path.join(path, "MASK.png")).convert('L'))/255
-        self.foodbox = pygame.transform.scale(pygame.image.load(os.path.join(path, 'swiggyfood.jpg')), (125,125))
+        self.foodbox = pygame.transform.scale(pygame.image.load(os.path.join(path, 'swiggyfood.png')), (30,30))
         self.delivery = pygame.transform.scale(pygame.image.load(os.path.join(path, 'delivery.png')), (50,50))
 
 
