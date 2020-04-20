@@ -6,7 +6,7 @@
 ### Created whole environment using GYM templets
 
 
-<a rel="Link to the video">![Car Movement](https://github.com/hardayal/EVA/blob/master/Phase2_S10/images/car_movement.jpg)</a>
+<a rel="Link to the video">![Car Movement](https://github.com/hardayal/EVA/blob/master/Phase2_S10/images/car_movement.png)</a>
 
 
 ## Implementation steps:
